@@ -12,4 +12,4 @@
 * React
 
 To run the app,
-```python3 manage.py runserver```
+```python manage.py runserver```
