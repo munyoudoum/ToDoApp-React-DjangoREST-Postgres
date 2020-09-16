@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 class App extends React.Component {
-  api = "http://127.0.0.1:8000/api/";
+  api = "https://publictodo.herokuapp.com/api/";
   constructor(props) {
     super(props);
     this.state = {
