@@ -131,7 +131,7 @@ if os.getcwd() == '/app':
     # SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     # Allow all host headers
-    # ALLOWED_HOSTS = ['publictodo.herokuapp.com', '0.0.0.0', '127.0.0.1']
+    ALLOWED_HOSTS = ['publictodo.herokuapp.com']
     DEBUG = True
 
 STATIC_URL = '/static/'
