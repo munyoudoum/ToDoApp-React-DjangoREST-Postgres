@@ -134,9 +134,9 @@ if os.getcwd() == '/app':
     ALLOWED_HOSTS = ['publictodo.herokuapp.com']
     DEBUG = True
 
-STATIC_URL = '/static'
-STATIC_ROOT = os.path.join(BASE_DIR, "build/static")
-# STATICFILES_DIRS = [os.path.join(BASE_DIR, "build/static")]
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "build")
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "build/static")]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000"
