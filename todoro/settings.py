@@ -142,5 +142,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'build/static')
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8000"
+    "http://localhost:8000",
+    'publictodo.herokuapp.com'
 ]
