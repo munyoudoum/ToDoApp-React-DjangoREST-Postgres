@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-import dj_database_url
 from pathlib import Path
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -132,7 +131,7 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     # Allow all host headers
-    ALLOWED_HOSTS = ['publictodo.herokuapp.com']
+    ALLOWED_HOSTS = ['publictodo.herokuapp.com', '0.0.0.0', '127.0.0.1']
     DEBUG = True
 
 STATIC_URL = '/static/'
