@@ -127,11 +127,11 @@ if os.getcwd() == '/app':
     import dj_database_url
     db_from_env = dj_database_url.config(conn_max_age=500)
     DATABASES['default'].update(db_from_env)
-    # Honor the 'X-forwarded-Proto' header for request.is_secure().
-    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    # # Honor the 'X-forwarded-Proto' header for request.is_secure().
+    # SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     # Allow all host headers
-    ALLOWED_HOSTS = ['publictodo.herokuapp.com', '0.0.0.0', '127.0.0.1']
+    # ALLOWED_HOSTS = ['publictodo.herokuapp.com', '0.0.0.0', '127.0.0.1']
     DEBUG = True
 
 STATIC_URL = '/static/'
