@@ -143,5 +143,5 @@ STATICFILES_DIRS = [
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
-    'https://publictodo.herokuapp.com/'
+    'https://publictodo.herokuapp.com'
 ]
